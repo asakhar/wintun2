@@ -5,7 +5,7 @@ edition = "2021"
 links = "wintun"
 license = "MIT"
 description = "A wrapper around WinTun library"
-repository = ""
+repository = "https://github.com/asakhar/wintun2"
 
 [dependencies]
 winapi = { version = "0.3.9", features = ["wininet", "netioapi", "impl-default", "winerror", "iphlpapi", "ipexport"] }
